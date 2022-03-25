@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms'; 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { SuccessComponent } from './warnings/success/success/success.component';
 import { WarningComponent } from './warnings/warning/warning/warning.component';
+import { UsernameComponent } from './assignment 2/username/username.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,12 @@ import { WarningComponent } from './warnings/warning/warning/warning.component';
     ServerComponent,
     ServersComponent,
     SuccessComponent,
-    WarningComponent
+    WarningComponent,
+    UsernameComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
