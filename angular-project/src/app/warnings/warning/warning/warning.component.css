@@ -1,0 +1,14 @@
+.sc-box{
+    width: 80%;
+    background-color: rgba(255, 0, 0, 0.349);
+    border: 5px rgb(255, 0, 0) solid;
+    height: 100px; 
+    margin: auto;  
+    text-align: center;
+    margin-top: 50px;
+}
+h3{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
