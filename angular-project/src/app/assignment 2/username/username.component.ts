@@ -18,19 +18,19 @@ export class UsernameComponent implements OnInit {
   filled = false;
 
 
-  onUpdateUserName(event: Event){
-    this.userName = (<HTMLInputElement>event.target).value;
-    if (this.userName != ""){
-      this.filled = true;
-    }
-    else {
-      this.filled = false;
-    }
-  }
+  // onUpdateUserName(event: Event){
+  //   this.userName = (<HTMLInputElement>event.target).value;
+  //   if (this.userName != ""){
+  //     this.filled = true;
+  //   }
+  //   else {
+  //     this.filled = false;
+  //   }
+  // }
 
   onSubmit(){
     this.userName = "";
-    this.filled = false;
+    // this.filled = false;
   }
 
 }
