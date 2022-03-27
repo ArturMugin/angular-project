@@ -1,0 +1,7 @@
+<label>Add a paragraph</label><br>
+<button class="btn btn-primary" (click)="onToggleDetails()">Dispaly details</button>
+<p *ngIf="showSecret"> Secrept password = tuna</p>
+<p *ngFor="let i of log"
+    [ngStyle]="{backgroundColor: i >= 5 ? 'green' : 'red' }"
+    [ngClass]="{white: i >= 5}"
+> {{i}} </p>
